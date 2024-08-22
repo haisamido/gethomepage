@@ -10,10 +10,14 @@ directories:
 	mkdir -p ./config
 
 up: directories down ## Bring up gethomepage
-	docker compose up -d
+	docker compose up -d && \
+	echo "open http://localhost:3000"
 
 down: ## Bring down gethomepage
 	docker compose down
+
+clean: down ## docker system prune -a (DANGEROUS)
+	docker system prune -a
 
 print-%:
 	@echo $*=$($*)
