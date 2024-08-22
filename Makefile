@@ -3,8 +3,8 @@
 
 .PHONY:
 
-export SHELL =/bin/bash
-export TZ    =":UTC"
+export SHELL=/bin/bash
+export TZ=:UTC
 
 directories:
 	mkdir -p ./config
