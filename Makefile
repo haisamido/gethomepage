@@ -17,7 +17,8 @@ down: ## Bring down gethomepage
 	docker compose down
 
 clean: down ## docker system prune -a (DANGEROUS)
-	docker system prune -a
+	docker system prune -a && \
+	rm -rf ./config
 
 print-%:
 	@echo $*=$($*)
