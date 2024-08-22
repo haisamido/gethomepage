@@ -7,9 +7,9 @@ https://gethomepage.dev/latest/installation/docker/
 ```bash
 make up
 
-# open via https://localhost:3000/
-
 ```
+
+Then, open via https://localhost:3000/
 
 ## How to Stop Service
 
