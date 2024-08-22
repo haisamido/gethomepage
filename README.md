@@ -3,6 +3,7 @@
 https://gethomepage.dev/latest/installation/docker/
 
 ## How to Start Service
+
 ```bash
 make up
 
@@ -11,6 +12,7 @@ make up
 ```
 
 ## How to Stop Service
+
 ```bash
 make down
 
